@@ -18,7 +18,7 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Next.js' }) => {
               <Link href="/">
                 <a
                   data-testid="home-nav"
-                  className="test-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
+                  className="text-white test-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
                 >
                   Home
                 </a>
@@ -26,7 +26,7 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Next.js' }) => {
               <Link href="/blog-page">
                 <a
                   data-testid="blog-nav"
-                  className="test-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
+                  className="text-white test-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
                 >
                   Blog
                 </a>
@@ -34,7 +34,7 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Next.js' }) => {
               <Link href="/comment-page">
                 <a
                   data-testid="comment-nav"
-                  className="test-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
+                  className="text-white test-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
                 >
                   Comment
                 </a>
@@ -42,7 +42,7 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Next.js' }) => {
               <Link href="/context-page">
                 <a
                   data-testid="context-nav"
-                  className="test-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
+                  className="text-white test-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
                 >
                   Context
                 </a>
@@ -50,7 +50,7 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Next.js' }) => {
               <Link href="/task-page">
                 <a
                   data-testid="task-nav"
-                  className="test-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
+                  className="text-white test-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
                 >
                   Todos
                 </a>
